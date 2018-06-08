@@ -1,0 +1,636 @@
+/*Custom Style*/
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+}
+
+h3 {
+	font-family: 'Abril Fatface', cursive;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size:15px;
+}
+
+.container.nomargin {
+	margin:0;
+	padding:0;
+	width:100%;
+}
+.padding {
+	padding:80px 0;
+}
+
+.margin {
+	margin: 30px 0;
+}
+.title {
+	font-size:6em;
+	display:block;
+	font-weight: 800;
+}
+
+	
+
+/* Navigation Styling */
+.navbar {
+	background: #333333;
+	padding: 20px;
+	font-family: 'Lato', sans-serif;
+}
+.navbar .navbar-brand {
+	color: #ecf0f1;
+font-size: 2.5em;
+font-weight: 900;
+}
+.navbar .navbar-brand:hover {
+color: #16a085;
+}
+.navbar-inverse .navbar-nav>li>a {
+color: #ecf0f1;
+font-size: 1.25em;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a {
+	background: #333333;
+	border-bottom: 5px solid #16a085;
+}
+
+
+/* Header Styling */
+#header {
+	background: #16a085;
+	color: #333333;
+}
+
+#header .skills {
+	font-size: 2.75em
+}
+
+
+/*down arrow icon*/
+#header a: {
+color: #16a085;
+}
+#header a:hover {
+color: #16a085;
+}
+
+
+#header .logo {
+	border-radius: 15px;
+	height: 60px;
+}
+
+
+#header .img-thumbnail {
+	background:#16A085;
+	border: 0;
+	
+}
+
+
+
+/*Hover effect*/
+#header .logo img {
+	border-radius: 15px;
+	display: block;
+	margin: 5px auto;
+	opacity: 1;
+	transition: all .3s;
+}
+
+#header .logo img:hover {
+	margin: 5px auto;
+	opacity: .7;
+
+}
+
+
+/* Work Styling */
+#work {
+	color: #333333
+}
+#work img {
+
+}
+
+#work .portfolio-item {
+	border-radius: 15px;
+	height: 320px;
+	background: #eee;
+
+
+}
+
+/*Hover effect*/
+#work .portfolio-item img {
+	border-radius: 15px;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #333333;
+	margin: 20px 0;
+	opacity: 1;
+	transition: all .3s;
+}
+
+
+#work .portfolio-item img:hover {
+	margin: 5px 0;
+	opacity: .7;
+
+}
+
+/* Web Styling */
+#web {
+	background: #16a085;
+}
+#web img {
+
+}
+
+
+
+
+/*Hover effect*/
+#web .portfolio-item img {
+	border-radius: 15px;
+	margin: 0px 0;
+	opacity: 1;
+	transition: all .3s;
+}
+
+#web .portfolio-item img:hover {
+	margin: 0	px 0;
+	opacity: .7;
+
+}
+
+/* Print Styling */
+#print {
+	background: #fff;
+}
+#print img {
+padding: 20px;
+}
+
+
+#print .portfolio-item {
+	border-radius: 15px;
+	height: 300px;
+	background: #fff;
+	border-style: solid;
+    border-width: 3	px;
+	border-color: #333333;
+}
+
+
+#print .img-thumbnail {
+	background:#16A085;
+	border: 0;
+	
+}
+
+
+/*Hover effect*/
+#print .portfolio-item img {
+	border-radius: 15px;
+	margin: 15px auto;
+	opacity: 1;
+	transition: all .3s;
+}
+
+#print .portfolio-item img:hover {
+	margin: 0px auto;
+	opacity: .7;
+
+}
+
+/* Socialmedia Styling */
+#socialmedia {
+	background: #ecf0f1;
+}
+#socialmedia img {
+
+}
+
+
+#socialmedia .portfolio-item {
+	border-radius: 15px;
+	height: 300px;
+	background: #ecf0f1;
+
+}
+
+
+#socialmedia .btn-social {
+	width:50px;
+	height:50px;
+	text-align:center;
+	font-size:150px;
+	font-weight:900;
+	line-height:45px;
+}
+
+#socialmedia .btn-social i {
+	color: #16a085;
+}
+
+#socialmedia .socials>li {
+ margin: 5px 12px; 
+}
+#socialmedia .socials a {
+}
+#socialmedia .socials>li:hover a {
+background: #fff;
+
+}
+#contact .socials>li:hover i {
+	background: #fff;
+}
+
+
+
+
+/*Hover effect*/
+#socialmedia .portfolio-item img {
+	border-radius: 15px;
+	margin: 20px 0;
+	opacity: 1;
+	transition: all .3s;
+}
+
+#socialmedia .portfolio-item img:hover {
+	margin: 5px 0;
+	opacity: .7;
+
+}
+
+
+/* Contact Styling */
+#contact {	
+	font-family:'Lato',sans-serif;	
+	background: #333333;
+	color: #fff;
+}
+#contact h4 {
+	
+}
+#contact .has-success .form-control,
+#contact .has-success .control-label {
+border-color:#16a085;
+color:#16a085;
+	font-size: 1.25em;
+}
+
+
+#contact .btn-social {
+	display:inline-block;
+	width:50px;
+	height:50px;
+	border:3px solid #fff;
+	border-radius:100%;
+	text-align:center;
+	font-size:25px;
+	font-weight:900;
+	line-height:45px;
+}
+
+#contact .btn-social i {
+	color: #16a085;
+}
+
+#contact .socials>li {
+ margin: 5px 12px; 
+}
+#contact .socials a {
+}
+#contact .socials>li:hover a {
+background: #fff;
+
+}
+#contact .socials>li:hover i {
+	background: #fff;
+}
+
+#contact .btn-default {
+	background: #;
+	border: #;
+}
+
+#contact .btn-default:focus,
+#contact .btn-default:hover{
+	opacity: .7;
+}
+
+/* Footer Styling */
+footer {
+	font-family:'Lato',sans-serif;	
+	background: #333333;
+	color: #fff;
+}
+
+footer p {
+	padding: 10px;
+	margin: 0px;
+}
+
+
+
+/* ==== Media Queries ====*/
+
+/* iPads (Tablets) ----------- */
+@media only screen and (min-width: 768px) and (max-width : 1024px) {
+/* Styles */
+
+#header {
+	padding-top: 100px;
+}
+
+.title {
+
+}
+
+.padding {
+
+}
+
+#work .portfolio-item {
+	border-radius: 15px;
+	height: 160px;
+	background: #fff;
+
+}
+
+/*Hover effect*/
+#work .portfolio-item img {
+	border-radius: 15px;
+	margin: 20px 0;
+	opacity: 1;
+	transition: all .3s;
+}
+
+#work .portfolio-item img:hover {
+	margin: 20px 0;
+	opacity: .7;
+
+}
+
+#web .portfolio-item {
+	border-radius: 0px;
+	height: 520px;
+	background: #16a085;
+	margin: 5px auto;
+	width: 50%;
+	height: 50%;
+}
+
+
+
+
+/*Hover effect*/
+#web .portfolio-item img {
+	border-radius: 15px;
+	margin: 00px 0;
+	opacity: 1;
+}
+
+#web .portfolio-item img:hover {
+	margin: 0px 0;
+	opacity: .7;
+
+}
+
+#socialmedia .portfolio-item {
+	border-radius: 15px;
+	height: 350px;
+	background: #ecf0f1;
+
+}
+
+
+#socialmedia .btn-social {
+	width:50px;
+	height:50px;
+	text-align:center;
+	font-size:150px;
+	font-weight:900;
+	line-height:45px;
+}
+
+#socialmedia .btn-social i {
+	color: #16a085;
+}
+
+#contact  {
+	
+}
+
+}
+
+/* Iphone/Android (Small Devices) ----------- */
+@media only screen and (min-width : 320px) and (max-width: 767px) {
+
+
+/*down arrow icon*/
+#header .logo {
+	border-radius: 15px;
+	height: 60px;
+	width: 50%;
+	height: 50%;
+	margin: 5px auto;
+}
+
+
+#header .img-thumbnail {
+	background:#16A085;
+	border: 0;
+	
+}
+
+
+/*Hover effect*/
+#header .logo img {
+	border-radius: 15px;
+	display: block;
+	margin: 5px auto;
+	opacity: 1;
+	transition: all .3s;
+}
+
+#header .logo img:hover {
+	margin: 5px auto;
+	opacity: .7;
+
+}
+
+.title {
+	font-size:3em;
+}
+
+.h2 {
+	font-size: 3em;
+}
+
+
+#work .portfolio-item {
+	border-radius: 15px;
+	height: 320px;
+	background: #eee;
+	margin: 5px auto;
+	width: 50%;
+	height: 50%;
+}
+
+/*Hover effect*/
+#work .portfolio-item img {
+	border-radius: 15px;
+	display: inline-block;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #333333;
+	margin: 0px 0;
+	opacity: 1;
+}
+
+#work .portfolio-item img:hover {
+	margin: 0px 0;
+	opacity: .7;
+
+}
+
+
+
+
+
+#print .portfolio-item {
+	border-radius: 15px;
+	height: 300px;
+	background: #fff;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #333333;
+	margin: 20px auto;
+}
+
+
+#print .img-thumbnail {
+	background:#16A085;
+	border: 0;
+	
+}
+
+
+/*Hover effect*/
+#print .portfolio-item img {
+	border-radius: 15px;
+	margin: 20px auto;
+	opacity: 1;
+	transition: all .3s;
+}
+
+#print .portfolio-item img:hover {
+	margin: 5px auto;
+	opacity: .7;
+
+}
+
+
+
+#socialmedia .portfolio-item {
+	border-radius: 15px;
+	height: 350px;
+	background: #ecf0f1;
+
+}
+
+
+#socialmedia .btn-social {
+	width:50px;
+	height:50px;
+	text-align:center;
+	font-size:150px;
+	font-weight:900;
+	line-height:45px;
+}
+
+#socialmedia .btn-social i {
+	color: #16a085;
+}
+
+#socialmedia .socials>li {
+ margin: 5px 12px; 
+}
+#socialmedia .socials a {
+}
+#socialmedia .socials>li:hover a {
+background: #fff;
+
+}
+#contact .socials>li:hover i {
+	background: #fff;
+}
+
+
+
+
+/*Hover effect*/
+#socialmedia .portfolio-item img {
+	border-radius: 15px;
+	margin: 20px 0;
+	opacity: 1;
+	transition: all .3s;
+}
+
+#socialmedia .portfolio-item img:hover {
+	margin: 5px 0;
+	opacity: .7;
+
+}
+
+#contact .btn-social {
+	display:inline-block;
+	color: #fff;
+	width:50px;
+	height:50px;
+	border:3px solid #fff;
+	border-radius:100%;
+	text-align:center;
+	font-size:24px;
+	font-weight:900;
+	line-height:40px;
+
+}
+
+#contact .socials>li {
+ margin: 20px 2px; 
+}
+
+.margin.no_margin_mobile {
+
+}
+
+
+.contact-form button.pull-right {
+	
+}
+
+.social-media {
+	margin-top: 30px;
+}
+
+.margin.mobile_only {
+	display: none;
+}
